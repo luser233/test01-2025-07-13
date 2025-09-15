@@ -1,20 +1,109 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.1">
   <diagram name="第 1 页" id="S_tEb9hwI2XhXPCknAZd">
-    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1542" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="P46vp9N6gvglFvat7PHF-1" value="主程序入口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="352.5" y="10" width="90" height="30" as="geometry" />
+          <mxGeometry x="350" y="10" width="94" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P46vp9N6gvglFvat7PHF-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="P46vp9N6gvglFvat7PHF-1" target="P46vp9N6gvglFvat7PHF-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="392.5" y="320" as="sourcePoint" />
-            <mxPoint x="397.5" y="100" as="targetPoint" />
+            <mxPoint x="422.5" y="320" as="sourcePoint" />
+            <mxPoint x="427.5" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P46vp9N6gvglFvat7PHF-3" value="从redis中获取设备任务分配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="80" width="195" height="30" as="geometry" />
+        <mxCell id="P46vp9N6gvglFvat7PHF-3" value="从redis缓存中获取设备任务分配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="302" y="80" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="P46vp9N6gvglFvat7PHF-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="492" y="100" as="sourcePoint" />
+            <mxPoint x="530" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P46vp9N6gvglFvat7PHF-6" target="P46vp9N6gvglFvat7PHF-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="675" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-6" value="获取所有有任务的设备id列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="80" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-9" value="获取每个设备的任务应用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="P46vp9N6gvglFvat7PHF-9" target="P46vp9N6gvglFvat7PHF-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="250" as="sourcePoint" />
+            <mxPoint x="674.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-11" value="提取应用包名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="330" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="P46vp9N6gvglFvat7PHF-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="350" as="sourcePoint" />
+            <mxPoint x="675" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-13" value="加载脚本数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="330" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="396.5" y="120" as="sourcePoint" />
+            <mxPoint x="397" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="396" y="370" as="sourcePoint" />
+            <mxPoint x="396" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-18" value="执行任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="73" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-19" value="从redis中获取缓存的所有设备信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="450" width="191" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="P46vp9N6gvglFvat7PHF-18" target="P46vp9N6gvglFvat7PHF-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394" y="490" as="sourcePoint" />
+            <mxPoint x="444" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125.02" y="490" as="sourcePoint" />
+            <mxPoint x="125.02" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-23" value="为每台设备分配进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65.5" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="P46vp9N6gvglFvat7PHF-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="65.5" y="579.52" as="sourcePoint" />
+            <mxPoint x="-4.5" y="579.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-25" value="连接设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="560" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="P46vp9N6gvglFvat7PHF-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-55.47999999999999" y="600" as="sourcePoint" />
+            <mxPoint x="-55.47999999999999" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P46vp9N6gvglFvat7PHF-27" value="广播设备序列号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-103.86999999999999" y="650" width="97.74" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
