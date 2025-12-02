@@ -1,13 +1,13 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.2">
   <diagram name="第 1 页" id="-5e11Z_RZViTYFpa_0ez">
-    <mxGraphModel dx="2245" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2009" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0rBM0coehbs7APRJWQGV-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="趋势分析之后的数据" vertex="1">
           <mxGeometry height="60" width="120" x="360" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="0rBM0coehbs7APRJWQGV-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="选择方向并读取出该方向类型应该具备的关键词" vertex="1">
+        <mxCell id="0rBM0coehbs7APRJWQGV-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="读取出该方向类型应该具备的关键词" vertex="1">
           <mxGeometry height="60" width="140" x="350" y="180" as="geometry" />
         </mxCell>
         <mxCell id="0rBM0coehbs7APRJWQGV-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="0rBM0coehbs7APRJWQGV-2" value="">
@@ -60,6 +60,50 @@
         </mxCell>
         <mxCell id="0rBM0coehbs7APRJWQGV-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="爽点总结" vertex="1">
           <mxGeometry height="40" width="120" x="460" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="JuHyXZQEREFn2xklksNQ-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="判断生成的剧本内容、剧本框架和爽点总结是否符合用户要求" vertex="1">
+          <mxGeometry height="95" width="260" x="290" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="JuHyXZQEREFn2xklksNQ-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JuHyXZQEREFn2xklksNQ-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="450" as="sourcePoint" />
+            <mxPoint x="380" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JuHyXZQEREFn2xklksNQ-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="450" as="sourcePoint" />
+            <mxPoint x="420" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JuHyXZQEREFn2xklksNQ-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="605" as="sourcePoint" />
+            <mxPoint x="420" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JuHyXZQEREFn2xklksNQ-8" connectable="0" parent="JuHyXZQEREFn2xklksNQ-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;是&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0222" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JuHyXZQEREFn2xklksNQ-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="0rBM0coehbs7APRJWQGV-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="560" />
+              <mxPoint x="640" y="210" />
+            </Array>
+            <mxPoint x="550" y="560" as="sourcePoint" />
+            <mxPoint x="640" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JuHyXZQEREFn2xklksNQ-7" connectable="0" parent="JuHyXZQEREFn2xklksNQ-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;否&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0706" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JuHyXZQEREFn2xklksNQ-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="进行查重" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
