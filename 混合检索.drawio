@@ -1,0 +1,156 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="b8QfxGOXAPQU8yumc0db">
+    <mxGraphModel dx="1623" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="158" width="640" x="-43" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="线程状态: 消息历史/知识库绑定" vertex="1">
+          <mxGeometry height="78" width="260" x="302" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="知识资源: 切片数据/图谱数据" vertex="1">
+          <mxGeometry height="78" width="260" x="-8" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="用户输入学术问题" vertex="1">
+          <mxGeometry height="54" width="188" x="633" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="读取线程状态与知识库绑定信息" vertex="1">
+          <mxGeometry height="78" width="260" x="597" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="构造当前问题的检索空间" vertex="1">
+          <mxGeometry height="54" width="236" x="371" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#ffffff, #000000);strokeColor=#333;fontColor=light-dark(#333333,#cccccc);" value="执行混合检索" vertex="1">
+          <mxGeometry height="54" width="156" x="415" y="454" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="关键词匹配检索" vertex="1">
+          <mxGeometry height="54" width="172" x="183" y="583" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="语义相似度检索" vertex="1">
+          <mxGeometry height="54" width="172" x="405" y="583" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="图谱关系检索" vertex="1">
+          <mxGeometry height="54" width="156" x="627" y="583" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="候选证据融合与重排" vertex="1">
+          <mxGeometry height="54" width="204" x="389" y="712" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="组织问答上下文与引用标签" vertex="1">
+          <mxGeometry height="54" width="252" x="365" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="本地聊天模型生成回答" vertex="1">
+          <mxGeometry height="54" width="220" x="381" y="968" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="引用审计与格式化输出" vertex="1">
+          <mxGeometry height="54" width="220" x="381" y="1072" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-16" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="流式返回前端" vertex="1">
+          <mxGeometry height="54" width="156" x="413" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-17" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-2" style="curved=0;startArrow=none;endArrow=block;exitX=0.656;exitY=1.005;entryX=0.21;entryY=0;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="确定当前问答范围">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="377" y="260" />
+            </Array>
+            <mxPoint x="460.4" y="160" as="sourcePoint" />
+            <mxPoint x="597.0000000000001" y="259" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-18" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-4" style="curved=0;startArrow=none;endArrow=block;exitX=0.49;exitY=0.991;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="MBe3Sd8Us-hrdrzjkO28-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-19" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-5" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" target="MBe3Sd8Us-hrdrzjkO28-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-20" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-6" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.5;rounded=0;entryDx=0;entryDy=0;" target="MBe3Sd8Us-hrdrzjkO28-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="727" y="377" />
+              <mxPoint x="660" y="377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-21" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-7" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.478;entryY=0.024;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="MBe3Sd8Us-hrdrzjkO28-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-22" edge="1" parent="1" style="curved=0;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;" target="MBe3Sd8Us-hrdrzjkO28-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="269" y="533" />
+            </Array>
+            <mxPoint x="490" y="533" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-23" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-8" style="curved=0;startArrow=none;endArrow=block;rounded=0;entryX=0.49;entryY=0.028;entryDx=0;entryDy=0;exitX=0.475;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="MBe3Sd8Us-hrdrzjkO28-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="490" y="510" as="sourcePoint" />
+            <mxPoint x="479" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-24" edge="1" parent="1" style="curved=0;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;" target="MBe3Sd8Us-hrdrzjkO28-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="705" y="533" />
+            </Array>
+            <mxPoint x="490" y="533" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-25" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-9" style="curved=0;startArrow=none;endArrow=none;exitX=0.5;exitY=1;rounded=0;endFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="269" y="670" />
+            </Array>
+            <mxPoint x="490" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-26" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-10" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="MBe3Sd8Us-hrdrzjkO28-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-27" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-11" style="curved=0;startArrow=none;endArrow=none;exitX=0.5;exitY=1;rounded=0;endFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="705" y="670" />
+            </Array>
+            <mxPoint x="491" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-28" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-12" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="MBe3Sd8Us-hrdrzjkO28-13" value="多路结果综合排序">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-29" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-13" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="MBe3Sd8Us-hrdrzjkO28-14" value="证据约束生成">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-30" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-14" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="MBe3Sd8Us-hrdrzjkO28-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-31" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-15" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="MBe3Sd8Us-hrdrzjkO28-16" value="带引用标记输出">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="支撑资源" vertex="1">
+          <mxGeometry height="30" width="60" x="246" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
