@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="eaUElhT30oACYhtyObeu">
-    <mxGraphModel dx="734" dy="560" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="772" dy="677" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
         <mxCell id="MYJxhn6R5cKvL6b2bYBv-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="滑动窗口切片与元数据生成&#xa;保留 source / chunk / page / block 信息" vertex="1">
           <mxGeometry height="102" width="260" x="936" y="1656" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="写入 LigthRAG 工作区&#xa;图谱构建 / 向量索引" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="写入 LightRAG 工作区&#xa;图谱构建 / 向量索引" vertex="1">
           <mxGeometry height="78" width="215" x="956" y="1825" as="geometry" />
         </mxCell>
         <mxCell id="MYJxhn6R5cKvL6b2bYBv-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="更新知识库清单并返回入库结果&#xa;文件信息 / 切片路径 / 页数 / 时间戳" vertex="1">
