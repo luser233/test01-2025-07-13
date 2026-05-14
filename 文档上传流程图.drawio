@@ -1,55 +1,55 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="eaUElhT30oACYhtyObeu">
-    <mxGraphModel dx="772" dy="677" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1006" dy="812" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-18" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="开始" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-18" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#ffffff, #1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="开始" vertex="1">
           <mxGeometry height="47" width="47" x="769" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-19" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="用户上传文献&#xa;PDF / TXT / MD / DOC / DOCX" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-19" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="用户上传文献&#xa;PDF / TXT / MD / DOC / DOCX" vertex="1">
           <mxGeometry height="102" width="260" x="663" y="247" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-20" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="上传接口接收文件&#xa;FastAPI upload / ingest" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-20" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="上传接口接收文件&#xa;FastAPI upload / ingest" vertex="1">
           <mxGeometry height="78" width="226" x="680" y="399" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-21" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="格式校验与哈希去重&#xa;扩展名检查 / SHA-256 比对" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-21" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="格式校验与哈希去重&#xa;扩展名检查 / SHA-256 比对" vertex="1">
           <mxGeometry height="78" width="254" x="666" y="527" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-22" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="是否重复?" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-22" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="是否重复?" vertex="1">
           <mxGeometry height="124" width="124" x="731" y="655" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-23" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="重复文件直接返回已有记录" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-23" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="重复文件直接返回已有记录" vertex="1">
           <mxGeometry height="54" width="252" x="429" y="864" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-24" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="生成安全文件名并本地保存&#xa;写入 uploads 目录" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-24" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="生成安全文件名并本地保存&#xa;写入 uploads 目录" vertex="1">
           <mxGeometry height="78" width="252" x="940" y="813" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-25" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="按文档类型执行解析与清洗" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-25" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="按文档类型执行解析与清洗" vertex="1">
           <mxGeometry height="54" width="252" x="940" y="1017" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-26" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="文档类型是否为pdf?" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-26" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="文档类型是否为pdf?" vertex="1">
           <mxGeometry height="124" width="147" x="992.5" y="1164" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-27" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="PDF 逐页抽取与页面清洗" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-27" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="PDF 逐页抽取与页面清洗" vertex="1">
           <mxGeometry height="54" width="236" x="691" y="1333" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-28" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Word 块级提取与顺序保留" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-28" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Word 块级提取与顺序保留" vertex="1">
           <mxGeometry height="54" width="245" x="1188" y="1333" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="写入本地切片与块级数据&#xa;_chunks / _word_blocks" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="写入本地切片与块级数据&#xa;_chunks / _word_blocks" vertex="1">
           <mxGeometry height="78" width="236" x="948" y="1505" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="滑动窗口切片与元数据生成&#xa;保留 source / chunk / page / block 信息" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="滑动窗口切片与元数据生成&#xa;保留 source / chunk / page / block 信息" vertex="1">
           <mxGeometry height="102" width="260" x="936" y="1656" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="写入 LightRAG 工作区&#xa;图谱构建 / 向量索引" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="写入 LightRAG 工作区&#xa;图谱构建 / 向量索引" vertex="1">
           <mxGeometry height="78" width="215" x="956" y="1825" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="更新知识库清单并返回入库结果&#xa;文件信息 / 切片路径 / 页数 / 时间戳" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="更新知识库清单并返回入库结果&#xa;文件信息 / 切片路径 / 页数 / 时间戳" vertex="1">
           <mxGeometry height="126" width="260" x="678" y="1945" as="geometry" />
         </mxCell>
-        <mxCell id="MYJxhn6R5cKvL6b2bYBv-33" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="结束" vertex="1">
+        <mxCell id="MYJxhn6R5cKvL6b2bYBv-33" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="结束" vertex="1">
           <mxGeometry height="47" width="47" x="785" y="2121" as="geometry" />
         </mxCell>
         <mxCell id="MYJxhn6R5cKvL6b2bYBv-34" edge="1" parent="1" source="MYJxhn6R5cKvL6b2bYBv-18" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="MYJxhn6R5cKvL6b2bYBv-19" value="">
