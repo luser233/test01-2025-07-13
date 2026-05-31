@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="b8QfxGOXAPQU8yumc0db">
-    <mxGraphModel dx="2158" dy="1415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3363" dy="1649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,16 +38,16 @@
           <mxGeometry height="54" width="204" x="389" y="712" as="geometry" />
         </mxCell>
         <mxCell id="MBe3Sd8Us-hrdrzjkO28-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=19;" value="组织问答上下文与引用标签" vertex="1">
-          <mxGeometry height="54" width="252" x="365" y="840" as="geometry" />
+          <mxGeometry height="54" width="252" x="-59" y="712" as="geometry" />
         </mxCell>
         <mxCell id="MBe3Sd8Us-hrdrzjkO28-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=19;" value="本地聊天模型生成回答" vertex="1">
-          <mxGeometry height="54" width="220" x="381" y="968" as="geometry" />
+          <mxGeometry height="54" width="220" x="-450" y="712" as="geometry" />
         </mxCell>
         <mxCell id="MBe3Sd8Us-hrdrzjkO28-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=19;" value="引用审计与格式化输出" vertex="1">
-          <mxGeometry height="54" width="220" x="381" y="1072" as="geometry" />
+          <mxGeometry height="54" width="220" x="-720" y="712" as="geometry" />
         </mxCell>
         <mxCell id="MBe3Sd8Us-hrdrzjkO28-16" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=19;" value="流式返回前端" vertex="1">
-          <mxGeometry height="54" width="156" x="413" y="1200" as="geometry" />
+          <mxGeometry height="54" width="156" x="-1060" y="712" as="geometry" />
         </mxCell>
         <mxCell id="MBe3Sd8Us-hrdrzjkO28-17" edge="1" parent="1" style="curved=0;startArrow=none;endArrow=none;rounded=0;endFill=0;fontSize=15;" value="确定当前问答范围">
           <mxGeometry relative="1" x="-0.1444" y="1" as="geometry">
@@ -125,22 +125,22 @@
             <mxPoint x="491" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MBe3Sd8Us-hrdrzjkO28-28" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-12" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=19;" target="MBe3Sd8Us-hrdrzjkO28-13" value="多路结果综合排序">
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-28" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-12" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;rounded=0;fontSize=19;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="MBe3Sd8Us-hrdrzjkO28-13" value="多路结果综合排序">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MBe3Sd8Us-hrdrzjkO28-29" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-13" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=19;" target="MBe3Sd8Us-hrdrzjkO28-14" value="证据约束生成">
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-29" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-13" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;rounded=0;fontSize=19;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="MBe3Sd8Us-hrdrzjkO28-14" value="证据约束生成">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MBe3Sd8Us-hrdrzjkO28-30" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-14" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=19;" target="MBe3Sd8Us-hrdrzjkO28-15" value="">
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-30" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-14" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;rounded=0;fontSize=19;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="MBe3Sd8Us-hrdrzjkO28-15" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MBe3Sd8Us-hrdrzjkO28-31" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-15" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=19;" target="MBe3Sd8Us-hrdrzjkO28-16" value="带引用标记输出">
+        <mxCell id="MBe3Sd8Us-hrdrzjkO28-31" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-15" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;rounded=0;fontSize=19;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="MBe3Sd8Us-hrdrzjkO28-16" value="带引用标记输出">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
@@ -157,14 +157,14 @@
             <mxPoint x="540" y="-10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f4cjFAWrgOAmGGmxAiqh-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=19;" target="f4cjFAWrgOAmGGmxAiqh-6" value="">
+        <mxCell id="f4cjFAWrgOAmGGmxAiqh-4" edge="1" parent="1" source="MBe3Sd8Us-hrdrzjkO28-16" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=19;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="f4cjFAWrgOAmGGmxAiqh-6" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="490.7" y="1254" as="sourcePoint" />
-            <mxPoint x="490.7" y="1314" as="targetPoint" />
+            <mxPoint x="-1062.3" y="766" as="sourcePoint" />
+            <mxPoint x="-1062.3" y="826" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f4cjFAWrgOAmGGmxAiqh-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=19;" value="结束" vertex="1">
-          <mxGeometry height="49" width="49" x="466.5" y="1290" as="geometry" />
+          <mxGeometry height="49" width="49" x="-1160" y="714.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
