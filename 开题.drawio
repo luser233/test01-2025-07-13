@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-he248ucSGp0f2jcVjUM-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" value="&lt;font&gt;学术文献辅助综述系统&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="225" x="-112.5" y="60" as="geometry" />
+          <mxGeometry height="60" width="242.5" x="-121.25" y="60" as="geometry" />
         </mxCell>
         <mxCell id="-he248ucSGp0f2jcVjUM-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" value="&lt;font&gt;文献知识库管理&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="200" x="-740" y="190" as="geometry" />
